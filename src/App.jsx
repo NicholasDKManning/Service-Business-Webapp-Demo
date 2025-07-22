@@ -3,7 +3,9 @@ import myLogo from './assets/images/NDKM-Logo-2.png';
 import babysitterImg from './assets/images/fake-baby-sitter-image.png';
 import babysitterImg2 from './assets/images/fake-baby-sitter-image-2.png';
 import './App.css'
-import Header from './components/HamburgerMenu'
+import Header from './components/Header'
+import ContactForm from './components/ContactForm'
+import FooterComponent from './components/Footer'
 
 function App() {
   return (
@@ -79,6 +81,18 @@ function App() {
           </div>
         </div>
       </section>
+      
+      {/* Contact Form Section */}
+      <section id="contact" className="bg-[var(--color-background-alt)] py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
+            Book Today!
+          </h2>
+          <ContactForm />
+        </div>
+      </section>
+      
+      <FooterComponent />
     </main>
   );
 }
