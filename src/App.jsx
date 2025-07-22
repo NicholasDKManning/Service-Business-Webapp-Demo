@@ -25,7 +25,7 @@ function App() {
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-xl mx-auto text-center lg:max-w-md xl:max-w-lg lg:text-left lg:mx-0">
             <h1 className="text-4xl font-bold text-white sm:text-5xl xl:text-6xl">A Neighborhood Babysitter You Can Trust!</h1>
-            <p className="text-4xl font-bold text-white sm:text-5xl xl:text-6xl">I AM NOT A REAL BABYSITTER PLEASE DO NOT CONTACT ME FOR SERVICES</p>
+            <p className="mt-6 text-base font-bold text-gray-300">I AM NOT A REAL BABYSITTER PLEASE DO NOT CONTACT ME FOR SERVICES</p>
             <p className="mt-6 text-base text-gray-300">Friendly, responsible, trustworthy, and available evenings & weekends.</p>
             <div className="flex items-center justify-center mt-8 space-x-5 xl:mt-16 lg:justify-start">
               <a href="#services" className="px-6 py-3 font-bold bg-white text-gray-900 rounded hover:bg-gray-200">See Services</a>
