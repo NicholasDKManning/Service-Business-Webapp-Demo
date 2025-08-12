@@ -8,11 +8,5 @@ https://ndkm-demo-service-business-site.netlify.app/
 - ✅ Front-end built with ReactJS & Tailwind CSS
 - ✅ Clean & Responsive UI
 - ✅ Working form submissions
-- ✅ 
-- ✅ 
-
-...
-
----
 
 
